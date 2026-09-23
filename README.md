@@ -4,7 +4,9 @@ End-to-end Python pipeline pulling public transit stop locations from the City o
 
 ![Vienna public transit stops](output/vienna_mobility_map.png)
 
-[**View the interactive map**](output/vienna_mobility_map.html) (self-contained HTML, open locally in a browser)
+### [▶ View the interactive map](https://hiulian69.github.io/vienna-mobility-map/)
+
+Live on GitHub Pages — every Wiener Linien stop, clickable. No install, no download.
 
 ## Data source
 
@@ -21,7 +23,7 @@ End-to-end Python pipeline pulling public transit stop locations from the City o
 ## Setup
 
 ```bash
-python3.9 -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
